@@ -2,8 +2,6 @@
 const {MessageEmbed} = require('discord.js')
 const moment = require('moment')
 require('moment-duration-format')
-// kodumun oruspu çocukları xD
-// Sizin yaptığınız botlar bizi tutamaz
 
 module.exports = {
    name: 'sunucubilgi',
