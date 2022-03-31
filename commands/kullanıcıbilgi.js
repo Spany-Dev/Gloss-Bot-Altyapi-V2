@@ -2,8 +2,7 @@
 const {MessageEmbed} = require('discord.js')
 const moment = require('moment');
 require("moment-duration-format")
-// kodumun oruspu çocukları xD
-// Sizin yaptığınız botlar bizi tutamaz
+
 
 module.exports = {
    name: 'kullanıcıbilgi',
@@ -137,15 +136,6 @@ var durum = ''
    .setFooter("Gloss Kullanıcı bilgi sistemi.", message.guild.iconURL({ dynamic: true }))
    .setTimestamp()
    message.channel.send(bekleniyor)
-  }/* 
-Kullanıcı durum:
-Aktif değil
-Kullanıcı durum mesajı
-Yok
-Rolleri:
-@👑・Genel Kurucu
-@everyone
-Sunucuya girme zamanı:
-2020-Kasım-23 09:01:34
-  */
-}// dur bi
+  }
+
+}
