@@ -1,8 +1,6 @@
  
 const {MessageEmbed} = require('discord.js')
 const db = require("quick.db")
-// kodumun oruspu çocukları xD
-// Sizin yaptığınız botlar bizi tutamaz
 
 module.exports = {
    name: 'mute',
@@ -21,30 +19,30 @@ module.exports = {
       
   
     if(member.id === message.guild.ownerID) {
-      const motion = new MessageEmbed()
+      const spany = new MessageEmbed()
       .setColor("#3f007f")
       .setAuthor("Gloss Bot", "https://images-ext-2.discordapp.net/external/upcVsk1w8rbo_jfrfun5j4Fi0YCd25WPM9pu4SG-NQs/https/cdn.discordapp.com/avatars/726040861602742324/ff5a9e9abdd36d5f2effcfd9876527e2.webp")
       .setDescription(`**:no2: | Sunucu Sahibine Mute Atamazsın Dostum :thinking:**`)
       .setFooter(`🔮 Tüm Hakları Saklıdır.`)
-     return message.channel.send(motion)
+     return message.channel.send(spany)
    }
      
    if(member.id === client.user.id) {
-     const motion = new MessageEmbed()
+     const spany = new MessageEmbed()
       .setColor("#3f007f")
       .setAuthor("Gloss Bot", "https://images-ext-2.discordapp.net/external/upcVsk1w8rbo_jfrfun5j4Fi0YCd25WPM9pu4SG-NQs/https/cdn.discordapp.com/avatars/726040861602742324/ff5a9e9abdd36d5f2effcfd9876527e2.webp")
       .setDescription(`**:no2: | Bana Mute Atamazsın Dostum :thinking:**`)
       .setFooter(`🔮 Tüm Hakları Saklıdır.`)
-      return message.channel.send(motion)
+      return message.channel.send(spany)
      }
      
     if(member.id === message.author.id) {
-     const motion = new MessageEmbed()
+     const spany = new MessageEmbed()
       .setColor("#3f007f")
       .setAuthor("Gloss Bot", "https://images-ext-2.discordapp.net/external/upcVsk1w8rbo_jfrfun5j4Fi0YCd25WPM9pu4SG-NQs/https/cdn.discordapp.com/avatars/726040861602742324/ff5a9e9abdd36d5f2effcfd9876527e2.webp")
       .setDescription(`**:no2: | Kendi Kendine Mute Atamazsın Dostum :thinking:**`)
       .setFooter(`🔮 Tüm Hakları Saklıdır.`)
-      return message.channel.send(motion)
+      return message.channel.send(spany)
     }
       
      const muteli = new MessageEmbed()
@@ -57,12 +55,12 @@ module.exports = {
      
       db.set(`mute_${message.guild.id}_${member.id}`, true)
         
-    const motion = new MessageEmbed()
+    const spany = new MessageEmbed()
       .setColor("#3f007f")
       .setAuthor("Gloss Bot", "https://images-ext-2.discordapp.net/external/upcVsk1w8rbo_jfrfun5j4Fi0YCd25WPM9pu4SG-NQs/https/cdn.discordapp.com/avatars/726040861602742324/ff5a9e9abdd36d5f2effcfd9876527e2.webp")
       .setDescription(`:yess22: **|** ${member} **Başarıyla Susturuldu**`)
       .setFooter(`🔮 Tüm Hakları Saklıdır.`)
-     return message.channel.send(motion)  
+     return message.channel.send(spany)  
       
    }  
      
@@ -77,12 +75,12 @@ module.exports = {
       
    db.delete(`mute_${message.guild.id}_${member.id}`)
         
-    const motion = new MessageEmbed()
+    const spany = new MessageEmbed()
       .setColor("#3f007f")
       .setAuthor("Gloss Bot", "https://images-ext-2.discordapp.net/external/upcVsk1w8rbo_jfrfun5j4Fi0YCd25WPM9pu4SG-NQs/https/cdn.discordapp.com/avatars/726040861602742324/ff5a9e9abdd36d5f2effcfd9876527e2.webp")
       .setDescription(`:yess22: **|** ${member} **Başarıyla Susturması Kaldırıldı**`)
       .setFooter(`🔮 Tüm Hakları Saklıdır.`)
-     return message.channel.send(motion)  
+     return message.channel.send(spany)  
       
       
   }
