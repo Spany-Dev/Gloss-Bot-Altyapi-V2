@@ -6,7 +6,7 @@ module.exports = {
    run: async(client, message, args) => {
   
      if(args[0] === "bilet-sistemi") {
-       const motion = new Discord.MessageEmbed()
+       const spany = new Discord.MessageEmbed()
 .setColor("#3f007f")
 .setThumbnail("https://cdn.discordapp.com/attachments/778238163826900993/778654507944378398/31504ef441a60bf30ac38ecb522f7afb.webp")
 .setTitle(`:gem: **Gloss - Bilet Sistemi Menüsü**`)
@@ -22,13 +22,13 @@ Merhaba <@${message.author.id}> Botumuzun Destek Sunucusuna Gelmeyi Unutmayın.
 [Bot Davet Linki](https://discord.com/oauth2/authorize?client_id=700608702427955270&scope=bot&permissions=8) | [Gloss Support](https://discord.gg/pinkcode)
 `)
 .setFooter(`Gloss | Sizler İçin Burdayım!`)
-       return message.channel.send(motion)
+       return message.channel.send(spany)
 }
   
 
 //
  if(args[0] === "koruma") {
-       const motion = new Discord.MessageEmbed()
+       const spany = new Discord.MessageEmbed()
 .setColor("#3f007f")
 .setThumbnail("https://cdn.discordapp.com/attachments/778238163826900993/778654507944378398/31504ef441a60bf30ac38ecb522f7afb.webp")
 .setTitle(`:gem: **Gloss - Yedek Sistemi Menüsü**\n`) 
@@ -50,13 +50,13 @@ Merhaba <@${message.author.id}> Botumuzun Destek Sunucusuna Gelmeyi Unutmayın.
 [Bot Davet Linki](https://discord.com/oauth2/authorize?client_id=700608702427955270&scope=bot&permissions=8) | [Gloss Support](https://discord.gg/pinkcode)
 `)
 .setFooter(`Gloss | Sizler İçin Burdayım!`)      
-  return message.channel.send(motion)
+  return message.channel.send(spany)
     }
   
 
   
   if(args[0] === "yedek-sistemi") {
-       const motion = new Discord.MessageEmbed()
+       const spany = new Discord.MessageEmbed()
 .setColor("#3f007f")
 .setThumbnail("https://cdn.discordapp.com/attachments/778238163826900993/778654507944378398/31504ef441a60bf30ac38ecb522f7afb.webp")
 .setTitle(`:gem: **Gloss - Yedek Sistemi Menüsü**\n`) 
@@ -76,13 +76,13 @@ Merhaba <@${message.author.id}> Botumuzun Destek Sunucusuna Gelmeyi Unutmayın.
 [Bot Davet Linki](https://discord.com/oauth2/authorize?client_id=700608702427955270&scope=bot&permissions=8) | [Gloss Support](https://discord.gg/pinkcode)
       `)
 .setFooter(`Gloss | Sizler İçin Burdayım!`) 
-      return message.channel.send(motion)
+      return message.channel.send(spany)
     }
   
 
   
   if(args[0] === "moderasyon") {
-       const motion = new Discord.MessageEmbed()
+       const spany = new Discord.MessageEmbed()
 .setColor("#3f007f")
 .setThumbnail("https://cdn.discordapp.com/attachments/778238163826900993/778654507944378398/31504ef441a60bf30ac38ecb522f7afb.webp")
 .setTitle(`:gem: **Gloss - moderasyon Menüsü**\n`)
@@ -125,7 +125,7 @@ Merhaba <@${message.author.id}> Botumuzun Destek Sunucusuna Gelmeyi Unutmayın.
 [Bot Davet Linki](https://discord.com/oauth2/authorize?client_id=700608702427955270&scope=bot&permissions=8) | [Gloss Support](https://discord.gg/pinkcode)
        `)
 .setFooter(`Gloss | Sizler İçin Burdayım!`)      
-await message.channel.send(motion).then(s => {
+await message.channel.send(spany).then(s => {
 const embed = new Discord.MessageEmbed()
 .setColor("#3f007f")
 .setThumbnail("https://cdn.discordapp.com/attachments/778238163826900993/778654507944378398/31504ef441a60bf30ac38ecb522f7afb.webp")
@@ -150,7 +150,7 @@ return message.channel.send(embed)
 }
   
   if(args[0] === "kullanıcı") {
-       const motion = new Discord.MessageEmbed()
+       const spany = new Discord.MessageEmbed()
 .setColor("#3f007f")
 .setThumbnail("https://cdn.discordapp.com/attachments/778238163826900993/778654507944378398/31504ef441a60bf30ac38ecb522f7afb.webp")
 .setTitle(`:gem: **Gloss - Kullanıcı Menüsü**\n`)
@@ -184,11 +184,11 @@ Merhaba <@${message.author.id}> Botumuzun Destek Sunucusuna Gelmeyi Unutmayın.
 [Bot Davet Linki](https://discord.com/oauth2/authorize?client_id=700608702427955270&scope=bot&permissions=8) | [Gloss Support](https://discord.gg/pinkcode)
 `)
 .setFooter(`Gloss | Sizler İçin Burdayım!`)
-       return message.channel.send(motion)
+       return message.channel.send(spany)
     }
   
 
-const motion = new Discord.MessageEmbed()
+const spany = new Discord.MessageEmbed()
 
 .setColor("#3f007f")
 .setThumbnail("https://cdn.discordapp.com/attachments/778238163826900993/778654507944378398/31504ef441a60bf30ac38ecb522f7afb.webp")
@@ -221,7 +221,7 @@ Merhaba <@${message.author.id}> Botumuzun Destek Sunucusuna Gelmeyi Unutmayın.
 `)
 .setFooter(`Gloss | Sizler İçin Burdayım!`)
 
-if(!args[0]) return message.channel.send(motion)
+if(!args[0]) return message.channel.send(spany)
 
 
   }
