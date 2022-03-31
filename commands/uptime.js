@@ -1,8 +1,7 @@
 const fetch = require('node-fetch')
 const {MessageEmbed} = require('discord.js')
 const db = require('quick.db')
-// kodumun oruspu çocukları xD
-// Sizin yaptığınız botlar bizi tutamaz
+
 module.exports = {
    name: 'uptime',
    run: async(client, message, args) => {
