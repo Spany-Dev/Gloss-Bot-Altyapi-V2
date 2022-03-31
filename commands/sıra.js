@@ -8,8 +8,6 @@ module.exports = {
    run: async(client, msg, args) => {
 
   let u = msg.mentions.users.first() ||  msg.guild.members.cache.get(args[0]) || msg.author
-// bu bölüm ile pek uğraşmadım siktir edin
-  // sonuçta bizimki çalışıyor qwe.qwe
 
   var Canvas = require('canvas')
         var canvas = Canvas.createCanvas(934, 282)
