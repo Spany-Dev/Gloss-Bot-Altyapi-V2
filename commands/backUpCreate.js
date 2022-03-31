@@ -75,7 +75,7 @@ if (args[0] === "yükle") {
    .setDescription(`:no2: **| Yanlış Kullanım ?yedek yükle ID**`)
    .setFooter("🔮 Tüm Hakları Saklıdır.")   
   return message.channel.send(yokkiAmq)
- }// hm
+ }
   console.log(backups)
  if (!backups[message.author.id][code]){
    const yokkiAmq = new MessageEmbed()
