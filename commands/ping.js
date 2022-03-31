@@ -1,9 +1,6 @@
  
 const {MessageEmbed} = require('discord.js')
 
-// kodumun oruspu çocukları xD
-// Sizin yaptığınız botlar bizi tutamaz
-
 module.exports = {
    name: 'ping',
    run: async(client, message, args) => {
