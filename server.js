@@ -574,4 +574,4 @@ client.on('guildBanAdd', async(guild, member) => {
   
 })
 
-client.login('NzI2MDQwODYxNjAyNzQyMzI0.XvXgPg.l4haBun1jFJCREkOC2BzqAFq6Ic')
+client.login('')
